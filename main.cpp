@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <string>
+#include "histogram.h"
 
 using namespace std;
 const size_t SCREEN_WIDTH = 80;
@@ -17,19 +18,7 @@ vector<double> input_numbers(size_t count)
     }
     return result;
 }
-void find_minmax(const vector<double>& numbers, double& min, double& max)
-{
-    min = numbers[0];
-    max = numbers[0];
-    for(double x: numbers)
-    {
-        if(min>x)
-            min=x;
-        if(max<x)
-            max=x;
-    }
 
-}
 void make_histogram(const vector<double>& numbers, double max, double min, size_t bin_count, vector <size_t>& bins )
 {
 

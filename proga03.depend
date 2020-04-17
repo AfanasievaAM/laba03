@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1587119232 source:c:\users\user\desktop\proga03\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<string>
+	"histogram.h"
+
+1587119431 c:\users\user\desktop\proga03\histogram.h
+	<vector>
+
+1587121439 source:c:\users\user\desktop\proga03\histogram.cpp
+	"histogram.h"
+
